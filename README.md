@@ -1,5 +1,6 @@
 # laser-cutter-thresholder
-Thresholds images for readability and clear laser cuts. Originally written for Apiary Club by Matthew Fala (co-founder)
+#### Thresholds images for readability and clear laser cuts. Originally written for Apiary Club by Matthew Fala (co-founder)
+Thresholder converts images to pure black and white photos
 
 ## Apiary Club laser-cutter-thresholder
 ##### by Matthew Fala
@@ -20,7 +21,17 @@ Download and install from https://processing.org/download/
 > 1) Open LaserCutterThresholder.pde
 > 2) Modify dir = "" to point to the subfolder containing the target image
 > 3) Modify fileName = "" to the target image file
-#### If local threshold is desired:
+> #### If local threshold is desired:
 > 1) Adjust noiseReduction. Noise reduction will lower the local threshold makeing the output image contain less black pixels
 > 2) Adjust brushSize. Brush size will set a neighborhood radius for each pixel used in thresholding. Runtime is O(n^2) where n is radius
+> #### If global threshold is desired:
+> 1) Adjust blacken. Blacken raises an autodetermined threshold to make the resulting image contain more black pixels
 
+# Usage:
+#### After setting up the software
+> 1) Press the Processing build button
+> 2) Choose 1 of the 4 thresholding types
+> #### Options: Grayscale, Global, Local, Edge
+> 3) Wait. this may take some time
+> 4) The output will be in the LaserCutterThreshold/output folder
+> 5) To see the original color image, click the thresholded image.
