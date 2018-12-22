@@ -33,5 +33,5 @@ Download and install from https://processing.org/download/
 > 2) Choose 1 of the 4 thresholding types
 >    #### Options: Grayscale, Global, Local, Edge
 > 3) Wait. this may take some time
-> 4) The output will be in the LaserCutterThreshold/output folder
-> 5) To see the original color image, click the thresholded image.
+> 4) The thresholded laserfriendly image will be exported to the LaserCutterThreshold/output folder
+> 5) To revert to the original color image and run annother threshold, click the thresholded image
