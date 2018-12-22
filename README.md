@@ -1,3 +1,6 @@
+
+![Black&White](https://github.com/matthewfala/laser-cutter-thresholder/blob/master/processed-images/LaserFriendly_Akoko_Edited.jpg
+)
 # laser-cutter-thresholder
 #### Thresholds images for readability and clear laser cuts. Originally written for Apiary Club by Matthew Fala (co-founder)
 Thresholder converts images to pure black and white photos
@@ -35,3 +38,12 @@ Download and install from https://processing.org/download/
 > 3) Wait. this may take some time
 > 4) The thresholded laserfriendly image will be exported to the LaserCutterThreshold/output folder
 > 5) To revert to the original color image and run annother threshold, click the thresholded image
+
+#### Local Thresholding:
+![Black&White](https://github.com/matthewfala/laser-cutter-thresholder/blob/master/raw-images/Akoko_Edited.png)
+![Black&White](https://github.com/matthewfala/laser-cutter-thresholder/blob/master/processed-images/LaserFriendly_Akoko_Edited.jpg
+)
+
+#### Shadow Removal Example:
+![Black&White](https://github.com/matthewfala/laser-cutter-thresholder/blob/master/LaserCutterThresholder/textures/book.JPG)
+![Black&White](https://github.com/matthewfala/laser-cutter-thresholder/blob/master/LaserCutterThresholder/output/LaserFriendly_book.JPG)
