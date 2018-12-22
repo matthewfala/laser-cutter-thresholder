@@ -21,10 +21,10 @@ Download and install from https://processing.org/download/
 > 1) Open LaserCutterThresholder.pde
 > 2) Modify dir = "" to point to the subfolder containing the target image
 > 3) Modify fileName = "" to the target image file
-> #### If local threshold is desired:
+#### If local threshold is desired:
 > 1) Adjust noiseReduction. Noise reduction will lower the local threshold makeing the output image contain less black pixels
 > 2) Adjust brushSize. Brush size will set a neighborhood radius for each pixel used in thresholding. Runtime is O(n^2) where n is radius
-> #### If global threshold is desired:
+#### If global threshold is desired:
 > 1) Adjust blacken. Blacken raises an autodetermined threshold to make the resulting image contain more black pixels
 
 # Usage:
