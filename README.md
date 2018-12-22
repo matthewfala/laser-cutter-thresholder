@@ -2,7 +2,7 @@
 ![Black&White](https://github.com/matthewfala/laser-cutter-thresholder/blob/master/processed-images/LaserFriendly_Akoko_Edited.jpg
 )
 # laser-cutter-thresholder
-#### Thresholds images for readability and clear laser cuts. Originally written for Apiary Club by Matthew Fala (co-founder)
+#### Thresholds images for clear laser cuts. Originally written for Apiary Club by Matthew Fala (co-founder)
 Thresholder converts images to pure black and white photos
 
 ## Apiary Club laser-cutter-thresholder
